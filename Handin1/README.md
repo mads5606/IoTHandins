@@ -14,4 +14,4 @@ How to run:
 
 `java -classpath build;javasysmon-0.3.5.1.jar com.iot.TestHarness func go run GoFiles/func/mqtt-func.go`
 
-`java -classpath build;javasysmon-0.3.5.1.jar com.iot.TestHarness client go run mosquitto_sub -v -t "func/+/+"`
+`java -classpath build;javasysmon-0.3.5.1.jar com.iot.TestHarness client mosquitto_sub -v -t "func/+/+"`
