@@ -7,6 +7,7 @@ How to run:
 `javac -cp javasysmon-0.3.5.1.jar -d build src/com/iot/*.java`
 
 2. step: Run each go file and the mosquitto sub command
+
 `java -classpath build;javasysmon-0.3.5.1.jar com.iot.TestHarness siggen go run GoFiles/siggen/mqtt-siggen.go`
 
 `java -classpath build;javasysmon-0.3.5.1.jar com.iot.TestHarness mavg go run GoFiles/mavg/mqtt-mavg.go`
